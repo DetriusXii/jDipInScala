@@ -18,6 +18,10 @@ object Constants {
                                                      "Ryan" -> "Austria",
                                                      "Mark" -> "Italy",
                                                      "Carey" -> "England");
-
+  val UNIT_TYPE : String = "unitType"
+  val PROVINCE_NAME : String = "provinceName"
+  val ORDER_TYPE : String = "orderType"
+  val SRC_NAME : String = "srcName"
+  val DST_NAME : String = "dstName"
 
 }
