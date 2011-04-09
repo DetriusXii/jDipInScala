@@ -140,6 +140,11 @@ object Main {
           Actor.sender ! movements
           println("waitForMessage")
           waitForMessage
+        case Some((x : String, "getImage")) =>
+          val imageCreator = new ImageCreator(Constants.IMAGE_SAVE_PATH, Constants.variantPath, false)
+          imageCreator.process(x, world)
+          Actor.sender ! "fileExists"
+          waitForMessage
         case _ =>
           println("nonstandard game message")
           waitForMessage

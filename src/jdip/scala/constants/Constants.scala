@@ -23,5 +23,6 @@ object Constants {
   val ORDER_TYPE : String = "orderType"
   val SRC_NAME : String = "srcName"
   val DST_NAME : String = "dstName"
+  val IMAGE_SAVE_PATH : String = "D:/cygwin/home/Andrew/PlayInScala/public/images"
 
 }

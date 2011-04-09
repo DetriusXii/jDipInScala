@@ -27,8 +27,6 @@ import org.apache.batik.transcoder.svg2svg.SVGTranscoder
 import org.apache.batik.util.XMLResourceDescriptor
 import org.apache.batik.dom.svg.SAXSVGDocumentFactory
 import javax.xml.transform._
-
-
 import javax.xml.transform.dom.DOMSource
 import javax.xml.transform.stream.StreamResult
 
